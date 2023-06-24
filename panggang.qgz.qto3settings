@@ -1,0 +1,420 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "enabled": false,
+    "layers": {
+      "Batas_6c952f50_f848_4deb_a7d9_82ae881c118c": {
+        "enabled": true,
+        "groups": []
+      },
+      "DTM_clip_32d64c07_fedf_4da5_9942_8854adcf574a": {
+        "enabled": true,
+        "groups": []
+      },
+      "DTM_dr_ct_f91c747b_63ac_47b6_b8f1_ffba65d23d02": {
+        "enabled": true,
+        "groups": []
+      },
+      "Garis_Kontur_98252ec0_9845_4d74_8091_3d3b957a6c6e": {
+        "enabled": true,
+        "groups": []
+      },
+      "Garis_kontur_3D_23d5d43f_175c_47a0_9adc_b4772b6bd8a7": {
+        "enabled": true,
+        "groups": []
+      },
+      "aoi_b0dd41b5_cd11_427f_9c81_b9bb6feb857a": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:eed8b7f2": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false,
+    "startOnLoad": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 0,
+      "layerId": "DTM_clip_32d64c07_fedf_4da5_9942_8854adcf574a",
+      "name": "DTM_clip",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "aoi_b0dd41b5_cd11_427f_9c81_b9bb6feb857a",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "11eb1de9",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "comboBox_TextureSize": "1024",
+              "radioButton_PNG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "11eb1de9",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Garis_Kontur_98252ec0_9845_4d74_8091_3d3b957a6c6e",
+      "name": "Garis Kontur",
+      "properties": {
+        "checkBox_Clickable": false,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": false,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "fieldExpressionWidget_altitude": "0.1",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "lineEdit_Name": "Garis Kontur",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_AllFeatures": true,
+        "radioButton_zValue": true
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "aoi_b0dd41b5_cd11_427f_9c81_b9bb6feb857a",
+      "name": "aoi",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Batas_6c952f50_f848_4deb_a7d9_82ae881c118c",
+      "name": "Batas",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": "DTM_dr_ct_f91c747b_63ac_47b6_b8f1_ffba65d23d02",
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"Id\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Garis_kontur_3D_23d5d43f_175c_47a0_9adc_b4772b6bd8a7",
+      "name": "Garis_kontur_3D",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "lineEdit_Name": "",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_IntersectingFeatures": true,
+        "radioButton_zValue": true
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "DTM_dr_ct_f91c747b_63ac_47b6_b8f1_ffba65d23d02",
+      "name": "Terrain",
+      "properties": {
+        "checkBox_Clickable": false,
+        "checkBox_Clip": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "aoi_b0dd41b5_cd11_427f_9c81_b9bb6feb857a",
+        "horizontalSlider_DEMSize": 1,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "Terrain",
+        "materials": [
+          {
+            "id": "d3e56be6",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "comboBox_TextureSize": "4096",
+              "radioButton_PNG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "d3e56be6",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:eed8b7f2",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "b0bb9b03",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "b0bb9b03",
+        "spinBox_Size": 3
+      },
+      "visible": false
+    }
+  ],
+  "OPT": {
+    "localMode": true
+  },
+  "OutputFilename": "D:/Data/Arkabumi/Survey/Panggang/layout/3D\\index.html",
+  "SCENE": {
+    "checkBox_FixAspectRatio": true,
+    "checkBox_Outline": false,
+    "colorButton_Color": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": true,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "431236.6626746878",
+    "lineEdit_CenterY": "9108149.853354927",
+    "lineEdit_Height": "528.2698437913787",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "528.2698437913787",
+    "lineEdit_zFactor": "1.0",
+    "slider_Fog": 41
+  },
+  "Template": "3DViewer.html",
+  "Title": "Bukit Pantai Bekah Panggang",
+  "Version": 20701,
+  "WIDGETS": {
+    "NorthArrow": {
+      "color": "0xbdbfc0",
+      "visible": true
+    }
+  }
+}
